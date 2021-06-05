@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+/* Header 영역 */
+a {
+    text-decoration: none;
+}
+.headerVar_links {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.headerVar_links .links {
+    font-size:13px;
+    padding: 18px;
+}
+.headerVar_links .links_logo {
+    font-size: 20px;
+    padding: 14px;
+}
+/* Section 영역 */
+
+.SEARCH_TITLE {
+    padding-top: 90px;
+}
+.SEARCH_TITLE img {
+    display: block;
+    margin: auto;
+    width: 350px;
+}
+/* display:block 요소를 주고 margin 값을 auto로 설정하면 중앙정렬이 된다. */
+.SEARCH_CLICK input {
+    border: none;
+    width: 100%;
+}
+form {
+    border: 1px solid gray;
+    border-radius: 50px;
+    opacity: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}
+.search_gls {
+    padding: 15px 13px;
+}
+.search_add {
+    display: flex;
+    opacity: 100%;
+    padding: 18px 12px; 
+}
+.SEARCH_CLICK {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 50px;
+}
+.search_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search_button {
+    padding: 10px;
+}
+.search_button input {
+    border: none;
+    background-color: #f8f9fa;;
+    font-size: 14px;
+    color: #3c4043;
+}
+/* 공백 */
+.gap {
+    height: 167px;
+}
+/* Footer 영역*/
+.FOT {
+    
+}
+.LOC {
+    display: flex;
+    align-items: center;
+    background-color: #dadce0;
+    opacity: 55%;
+    margin-bottom: 0;
+    border-bottom: 1px solid gray;
+    height:50px;
+    font-size: 14px;
+}
+.loction {
+    list-style: none;
+}
+.INFO {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dadce0;
+    list-style: none;
+    opacity: 55%;
+    margin:0;
+    height:52px;
+    padding: 0px 33px 0px 40px;
+    font-size: 14px;
+}
+.INFO .menual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.INFO .sec {
+    display: flex;
+}
+.info_1 {
+    padding: 0 8px;
+}
+/* 반응형 웹 */
+
+@media screen and (max-width: 650px) {
+    .INFO{
+        flex-direction: column;
+    }
+    .SEARCH_CLICK {
+        
+    }
+}
